@@ -27,7 +27,7 @@ export default function NavBar(props) {
           
         </ul>
         <div className={`custom-control custom-switch text-${props.textMode}`}>
-          <input type="checkbox" className="custom-control-input" id="customSwitch1" checked={props.textMode === 'dark'} onChange={handleToggleMode} />
+          <input type="checkbox" className="custom-control-input" id="customSwitch1" checked={props.textMode === 'light'} onChange={handleToggleMode} />
           <label className="custom-control-label" htmlFor="customSwitch1">Enable Dark Mode</label>
         </div>
       </div>

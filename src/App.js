@@ -12,7 +12,7 @@ function App() {
     if(mode==='light'){
       setMode('dark');
       setTextMode('light');
-      document.body.style.backgroundColor = '#cfe2f3';
+      document.body.style.backgroundColor = '#718190';
     }
     else{
       setMode('light');
